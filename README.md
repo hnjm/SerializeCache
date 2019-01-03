@@ -2,4 +2,4 @@
 
 **Install**
 
-`composer require xtodx/serializecache dev-master`
+`composer require xtodx/serializecache`
