@@ -1,0 +1,26 @@
+{
+    "name": "xtodx/serializecache",
+    "description": "Serialize Array Cacher",
+    "keywords": [
+        "dron",
+        "core"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Anton Kovalenko",
+            "email": "tonylovepony@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "phpunit/phpunit": "^7.5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    }
+}
