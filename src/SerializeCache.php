@@ -10,6 +10,8 @@
         static public function setPath($path)
         {
             self::$PATH = $path;
+            if(!is_dir($path))
+                chdir($path);
         }
 
         static public function save($file, $data)
